@@ -8,6 +8,148 @@ body {
   margin: 0;
 }
 
+.autor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.autor_img {
+  border-radius: 50%;
+  align-items: flex-start;
+  width: auto;
+}
+.autor_name {
+  font-family: "Playfair Display", italic;
+  font-weight: 900;
+  color: #121619;
+  font-style: italic;
+  align-items: center;
+  vertical-align: middle;
+}
+.autor_rrss {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #ecbcba;
+  margin-top: 20px;
+  align-items: left;
+  vertical-align: left;
+  margin-bottom: -4px;
+}
+.autor_web {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #ecbcba;
+  align-items: left;
+  vertical-align: left;
+}
+.autor_text {
+  align-items: flex-end;
+  color: #d1d1d1;
+  line-height: 30px;
+}
+
+.articulo_titulo {
+  font-family: "Playfair Display", italic;
+  font-weight: 400;
+  font-size: 300;
+  color: #d1d1d1;
+  margin: 40px 0 40px 8px;
+}
+.articulo_parrafo {
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: justify;
+  color: #d1d1d1;
+}
+.articulo_destacado {
+  color: #e56353;
+}
+
+.author {
+  /* Extra small devices (phones, 600px and down) */
+}
+@media only screen and (max-width: 600px) {
+  .author {
+    display: flex;
+    height: 400px;
+  }
+  .author__img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .author__name {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .author__rrss {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .author__web {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .author__text {
+    display: none;
+  }
+}
+
+.author {
+  /* Extra small devices (phones, 600px and down) */
+}
+@media only screen and (min-width: 600px) {
+  .author {
+    display: flex;
+    height: 400px;
+  }
+  .author__img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin: 0 auto;
+  }
+  .author__name {
+    flex: 1;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+  .author__rrss {
+    flex: 1;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+  .author__web {
+    flex: 1;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .main__container__titulo {
+    font-size: 30px;
+  }
+
+  .author__img {
+    width: auto;
+  }
+}
 header {
   margin: 0;
   padding: 0;
