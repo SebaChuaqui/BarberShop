@@ -1,0 +1,22 @@
+.navbar {
+    background-color: $serie-black;
+}
+
+a.navbar-brand {
+    display: inline-block;
+    width: 30%;
+}
+
+.navbar_logo {
+    display: inline-block;
+    width: 20%;
+}
+
+.nav-item {
+    &:hover {
+        background-color: $niquel;
+        color: $white;
+        border-radius: 50%;
+        border-image-width: 30px;
+    }
+}
