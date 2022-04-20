@@ -8,6 +8,121 @@ body {
   margin: 0;
 }
 
+header {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", italic;
+}
+
+.encabezado {
+  position: relative;
+}
+
+.main_container {
+  background: url("../images/post-image.jpg") no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  min-height: 800px;
+  margin: auto;
+}
+
+.main__container__titulo {
+  font-family: "Playfair Display", italic;
+  color: #fff;
+  font-weight: 900;
+  font-size: 70px;
+  margin: 100px auto;
+  font-style: italic;
+}
+
+.fa-angle-double-down {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  color: #fff;
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .encabezado .main__container {
+    min-height: 0;
+  }
+  .encabezado .fa-angle-double-down {
+    bottom: 30%;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .encabezado .main_container_titulo {
+    font-size: 30px;
+    min-height: 0;
+  }
+  .encabezado .fa-angle-double-down {
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    color: #fff;
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .encabezado .main_container_titulo {
+    font-size: 40px;
+    min-height: 0;
+  }
+  .encabezado .fa-angle-double-down {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    color: #fff;
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .encabezado .main_container_titulo {
+    font-size: 50px;
+  }
+  .encabezado .fa-angle-double-down {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    color: #fff;
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .encabezado .main_container_titulo {
+    font-size: 60px;
+    min-height: 0;
+  }
+  .encabezado .fa-angle-double-down {
+    left: 50%;
+    top: 75%;
+    color: #fff;
+    font-size: 60px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .encabezado .main_container_titulo {
+    font-size: 70px;
+    min-height: 0;
+  }
+}
+
+.final {
+  background-color: #121619;
+}
+
+.final_logo {
+  text-align: center;
+  width: 10%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .boton {
   padding-top: 30px;
   padding-bottom: 30px;
