@@ -16,13 +16,15 @@ header {
     margin: auto;
 }
 
-.main__container__titulo {
+.main_container_titulo {
     font-family: $primary-font;
     color: $white;
     font-weight: $black;
     font-size: $xx-l;
     margin: 100px auto;
     font-style: italic;
+    text-align: center;
+    
 }
 
 .fa-angle-double-down {
@@ -37,7 +39,7 @@ header {
 .encabezado {
 
     @media only screen and (max-width: 600px) {
-        .main__container {
+        .main_container {
             min-height: 0;
         }
 

@@ -11281,13 +11281,14 @@ header {
   margin: auto;
 }
 
-.main__container__titulo {
+.main_container_titulo {
   font-family: "Playfair Display", italic;
   color: #fff;
   font-weight: 900;
   font-size: 70px;
   margin: 100px auto;
   font-style: italic;
+  text-align: center;
 }
 
 .fa-angle-double-down {
@@ -11299,7 +11300,7 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
-  .encabezado .main__container {
+  .encabezado .main_container {
     min-height: 0;
   }
   .encabezado .fa-angle-double-down {
@@ -11406,26 +11407,22 @@ header {
   color: #d1d1d1;
 }
 
-.boton {
-  /* Extra small devices (phones, 600px and down) */
-}
 @media only screen and (min-width: 600px) {
   .boton {
     display: flex;
     align-items: center;
     margin: 0 auto;
   }
-  .boton__comparte {
+  .boton_compartir {
     align-items: flex-start;
   }
-  .boton__comenta {
+  .boton_comentar {
     align-items: flex-end;
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .main__container__titulo {
+  .main_container_titulo {
     font-size: 30pt;
   }
 }
