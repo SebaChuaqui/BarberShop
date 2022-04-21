@@ -11180,6 +11180,7 @@ body {
   padding: 10px;
   text-align: justify;
   color: #d1d1d1;
+  line-height: -20px;
 }
 .articulo_destacado {
   color: #e56353;
@@ -11397,10 +11398,11 @@ header {
 }
 .boton_comentar {
   background-color: #6c6e70;
-  padding: 12px;
+  padding: 10px;
   color: #d1d1d1;
   border-radius: 25px;
   width: auto;
+  margin-left: 2px;
 }
 .boton_comentar:hover {
   background-color: #d76c69;
@@ -11440,11 +11442,10 @@ a.navbar-brand {
   width: 20%;
 }
 
-.nav-item:hover {
-  background-color: #6c6e70;
+.nav-item {
+  background-color: #121619;
   color: #fff;
-  border-radius: 50%;
-  border-image-width: 30px;
+  margin-left: 20px;
 }
 
 .pag-bar {

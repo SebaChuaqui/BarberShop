@@ -18,10 +18,11 @@
 
     &_comentar {
         background-color: $niquel;
-        padding: 12px;
+        padding: 10px;
         color: $lightgray;
         border-radius: 25px;
         width: auto;
+        margin-left: 2px;
 
         &:hover {
             background-color: $rudy-pink;

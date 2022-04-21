@@ -13,10 +13,8 @@ a.navbar-brand {
 }
 
 .nav-item {
-    &:hover {
-        background-color: $niquel;
+
+        background-color: $serie-black;
         color: $white;
-        border-radius: 50%;
-        border-image-width: 30px;
-    }
+        margin-left: 20px;
 }

@@ -40,6 +40,7 @@
         align-items: flex-end;
         color: $lightgray;
         line-height: 30px;
+
     }
 }
 
@@ -58,6 +59,7 @@
         padding: 10px;
         text-align: justify;
         color: $lightgray;
+        line-height: -20px;
     }
 
     &_destacado {
