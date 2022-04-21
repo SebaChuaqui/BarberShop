@@ -64,18 +64,13 @@
         color: $fuzzy;
     }
 }
+.autor {
 
-
-
-
-.author {
-
-    /* Extra small devices (phones, 600px and down) */
     @media only screen and (max-width: 600px) {
         display: flex;
         height: 400px;
 
-        &__img {
+        &_img {
             flex: 1;
             display: flex;
             align-items: center;
@@ -84,42 +79,40 @@
             margin: 0 auto;
         }
 
-        &__name {
+        &_name {
             flex: 1;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
-        &__rrss {
+        &_rrss {
             flex: 1;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
-        &__web {
+        &_web {
             flex: 1;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
-        &__text {
+        &_text {
             display: none;
         }
     }
 }
 
+.autor {
 
-.author {
-
-    /* Extra small devices (phones, 600px and down) */
     @media only screen and (min-width: 600px) {
         display: flex;
         height: 400px;
 
-        &__img {
+        &_img {
             flex: 1;
             display: flex;
             align-items: center;
@@ -128,21 +121,21 @@
             margin: 0 auto;
         }
 
-        &__name {
+        &_name {
             flex: 1;
             display: flex;
             align-items: left;
             justify-content: left;
         }
 
-        &__rrss {
+        &_rrss {
             flex: 1;
             display: flex;
             align-items: left;
             justify-content: left;
         }
 
-        &__web {
+        &_web {
             flex: 1;
             display: flex;
             align-items: left;
@@ -151,16 +144,12 @@
     }
 }
 
-
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .main__container__titulo {
+    .main_container_titulo {
         font-size: 30px;
     }
 
-    .author__img {
+    .autor_img {
         width: auto;
     }
 }
